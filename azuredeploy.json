@@ -67,7 +67,7 @@
         },
         "valheimPlus": {
             "type": "boolean"
-        }
+        },
         "valheimServerPassword": {
             "type": "securestring"
         },
