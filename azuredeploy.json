@@ -65,6 +65,9 @@
         "valheimWorldName": {
             "type": "string"
         },
+        "valheimPlus": {
+            "type": "boolean"
+        }
         "valheimServerPassword": {
             "type": "securestring"
         },
@@ -167,6 +170,10 @@
                                 {
                                     "name": "WORLD_NAME",
                                     "value": "[parameters('valheimWorldName')]"
+                                },
+                                {
+                                    "name": "VALHEIM_PLUS",
+                                    "value": "[parameters('valheimPlus')]"
                                 }
                             ],
                             "ports": "[parameters('ports')]",
