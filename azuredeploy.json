@@ -68,6 +68,9 @@
         "valheimPlus": {
             "type": "bool"
         },
+        "valheimPlusRepo": {
+            "type": "string"
+        },
         "valheimServerPassword": {
             "type": "securestring"
         },
@@ -174,6 +177,10 @@
                                 {
                                     "name": "VALHEIM_PLUS",
                                     "value": "[parameters('valheimPlus')]"
+                                },
+                                {
+                                    "name": "VALHEIM_PLUS_REPO",
+                                    "value": "[parameters('valheimPlusRepo')]"
                                 }
                             ],
                             "ports": "[parameters('ports')]",
